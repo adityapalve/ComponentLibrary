@@ -26,6 +26,7 @@ hr{
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
+    
 }
 .link-primary{
     background-color: var(--primary-color);
@@ -49,5 +50,27 @@ hr{
     padding: 0rem 0.5rem;
 }
 
+/* Navigation */
+.navigation{
+    background-color:var(--primary-color);
+    color:white;
+    padding:1rem ;
+    border-bottom-left-radius: 1rem;
+}
 
+.navigation .link{
+    color: white;
+}
 
+.nav-pills{
+    text-align: right;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navigation .link-active{
+    font-weight: bold ;
+}
